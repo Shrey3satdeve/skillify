@@ -229,83 +229,35 @@
           <p class="center-first">Trusted by Top Colleges and Universities Across the Nation</p>
           <div class="upper-first"></div>
         </div>
-        <div class="company">
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1ae005f797d0db59104_company-logo-2.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1a2005f7999d6b590f7_company-logo-1.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f24e1355ef7c617fdc22_company-logo-15.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f246bfe20e707e01c499_company-logo-14.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f234338be5747f5ba7d2_company-logo-13.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f2296f46e76b2efc12a9_company-logo-12.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f221957d0d41f73d8d64_company-logo-11.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f216ebeab0492759545f_company-logo-10.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f204f063d4d3ea34755b_company-logo-9.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1fb028fe0bafeeeab15_company-logo-8.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1ef429def186ff9e3cf_company-logo-7.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1e651d8a3614a417de2_company-logo-6.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1de8c2a5e488d5f0252_company-logo-5.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1d434453a7a0cb4aefa_company-logo-4.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1c79c2bedcd542b7baa_company-logo-3.svg"
-            alt="logo"
-            class="companies-logo"
-          />
-        </div>
+        <div class="container">
+          <div class="scroller">
+              <ul class="scroller-list">
+                  <li class="card">
+                      <img src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1ae005f797d0db59104_company-logo-2.svg" alt="Image 1">
+                  </li>
+                  <li class="card">
+                      <img src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f1a2005f7999d6b590f7_company-logo-1.svg" alt="Image 2">
+                  </li>
+                  <li class="card">
+                      <img src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f24e1355ef7c617fdc22_company-logo-15.svg" alt="Image 3">
+                  </li>
+                  <li class="card">
+                      <img src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f246bfe20e707e01c499_company-logo-14.svg" alt="Image 4">
+                  </li>
+                  <li class="card">
+                      <img src="https://uploads-ssl.webflow.com/6225fc753fdfeb1f4e457d4e/6226f234338be5747f5ba7d2_company-logo-13.svg" alt="Image 5">
+                  </li>
+              </ul>
+          </div>
+      </div>
+  
+      <script>
+          document.addEventListener("DOMContentLoaded", function () {
+              const scroller = document.querySelector(".scroller-list");
+              const clone = scroller.cloneNode(true);
+              scroller.parentElement.appendChild(clone);
+          });
+      </script>
         <div class="upper-first-down"></div>
       </section>
       <!-- <section id="new"  class="UIUX container">
